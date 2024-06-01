@@ -1,1 +1,83 @@
-// Продължи с твоя SCSS или обикновен CSS код тук.
+:root {
+    --primary-color: #9B582E;
+}
+
+// Header
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu{
+    margin-left: 20%;
+    font-family: 'Manrope';
+}
+
+.menu>.items{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+// Main
+.section-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-1>h1{
+    font-family: 'Noto Serif';
+    color: #9B582E;
+    width: 170vh;
+    font-size: 80px;
+    text-align: center;
+}
+
+.section-1 > p{
+    width: 60%;
+    text-align: center;
+    font-family: 'Manrope';
+    line-height: 20px;
+    margin: 0;
+}
+
+.sec-color{
+    color: #533019;
+}
+
+.buttons > button{
+    border: none;
+    border-radius: 4vh;
+    width: 25vh;
+    height: 6vh;
+    font-family: 'Manrope';
+}
+
+.buttons{
+    display: flex;
+    margin-top: 7vh;
+}
+
+#btn-1{
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: none;
+    margin-right: 5%;
+}
+
+#btn-2{
+    color: #CA7111;
+    border: 1px solid #CA7111;
+    background: none;
+}
+
+// Section 2
+
+.section-2{
+    background-image: url("../..,,,,,,,,,,,,,,,,,,,imgs/Group.webp");
+}
