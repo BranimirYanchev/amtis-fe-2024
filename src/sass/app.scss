@@ -173,7 +173,7 @@ header{
 
 // Section 4
 .section-4{
-    height: 200vh;
+    height: 320vh;
     background-color: #FBF4DF;
 }
 
@@ -222,7 +222,7 @@ header{
 }
 
 .desert{
-    margin-top: 10%;
+    margin-top: 8%;
     display: flex;
     align-items: center;
     height: 30%;
@@ -283,10 +283,160 @@ header{
     font-family: 'Noto Serif';
 }
 
+.section-4 > .footer{
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: #F9EECD;
+}
+
+.section-4 > .footer > p{
+    width: 80%;
+    height: 80px;
+}
+
+.section-4 > .footer > .info{
+    width: 70%;
+}
+
+.section-4 > .footer > .info{
+    width: 70%;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.section-4 > .footer > .btn > button{
+    width: 65%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    color: #F9EECD;
+    margin-left: 60%;
+    background-color: #9B582E;
+    padding: 8px;
+}
+
+.section-4 > .footer > .btn{
+    width: 20%;
+    height: 100%;
+    margin-left: 20px;
+}
+
 .p-d-t{
     padding-top: 12px;
 }
 
 .p-d-b{
     padding-bottom: 20px;
+}
+
+// Section 5
+
+.section-5{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Manrope';
+}
+
+.feedback{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.feedback-header{
+    font-family: 'Noto Serif';
+    font-size: 50px;
+}
+
+.people{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.leshnik{
+    margin-top: -30%;
+    margin-left: 200px;
+}
+
+.subititle{
+    margin-top: -100px;
+}
+
+// Section 6
+
+.section-6{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #FBF4DF;
+}
+
+.main{
+    align-self:flex-start;
+    margin-left: 100px;
+}
+.form, .main{
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-left: 30%;
+    height: 450px;
+    width: 30%;
+    background-color: #F9EECD;
+}
+
+.form > div > input{
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+}
+
+// Section 7
+
+.section-7{
+    height: 250vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news{
+    width: 70%;
+}
+
+.btn-news{
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    color: #F9EECD;
+    background-color: #9B582E;
+    padding: 8px;
+}  
+
+.news{
+    margin-top: 40px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > .menu{
+    margin-left: -35px;
 }
